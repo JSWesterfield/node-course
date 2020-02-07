@@ -18,6 +18,12 @@ console.log(greenMsg)
 
 ```
 
+## Dependencies :moyai:
+* 🏴‍☠️ Yargs - https://www.npmjs.com/package/yargs
+* ⚠️Chalk - https://www.npmjs.com/package/chalk
+* 👹 Nodemon - https://www.npmjs.com/package/nodemon
+* ✔️ Validator - https://www.npmjs.com/package/validator
+
 ## Contributing :black_nib:
 Not Applicable.
 Course Available :point_right: https://www.udemy.com/course/the-complete-nodejs-developer-course-2/
