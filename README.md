@@ -23,9 +23,9 @@ Not Applicable.
 Course Available :point_right: https://www.udemy.com/course/the-complete-nodejs-developer-course-2/
 
 ## License :page_with_curl:
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/) :mortar_board:
 ## 
-[Udemy](https://www.udemy.com/)
+[Udemy](https://www.udemy.com/) :computer:
 
 ## 
 ![Background](https://66.media.tumblr.com/8b0350f7124235dbb7f62c642711aeb4/tumblr_oru0mmO96p1slhhf0o1_1280.jpg)
