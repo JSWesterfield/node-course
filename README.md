@@ -1,8 +1,8 @@
- # Udemy NodeJS Course - The Complete Node.js Developer Course (3rd Edition)
+## Udemy NodeJS Course - The Complete Node.js Developer Course (3rd Edition) :zap:
 
 Goal: Learn more indepth within Node.js by building real-world applications with Node, Express, MongoDB, Jest, APIs, and more...
 
-## Purpose
+## Purpose :moyai:
 
 ```javascript
 
@@ -18,11 +18,11 @@ console.log(greenMsg)
 
 ```
 
-## Contributing
+## Contributing :black_nib:
 Not Applicable.
 Course Available here: https://www.udemy.com/course/the-complete-nodejs-developer-course-2/
 
-## License
+## License :page_with_curl:
 [MIT](https://choosealicense.com/licenses/mit/)
 [Udemy](https://www.udemy.com/)
 
