@@ -18,7 +18,7 @@ console.log(greenMsg)
 
 ```
 
-## Dependencies :moyai:
+## Dependencies 🎴
 * 🏴‍☠️ Yargs - https://www.npmjs.com/package/yargs
 * ⚠️Chalk - https://www.npmjs.com/package/chalk
 * 👹 Nodemon - https://www.npmjs.com/package/nodemon
