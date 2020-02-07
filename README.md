@@ -20,7 +20,7 @@ console.log(greenMsg)
 
 ## Contributing :black_nib:
 Not Applicable.
-Course Available here: https://www.udemy.com/course/the-complete-nodejs-developer-course-2/
+Course Available :point_right: https://www.udemy.com/course/the-complete-nodejs-developer-course-2/
 
 ## License :page_with_curl:
 [MIT](https://choosealicense.com/licenses/mit/)
