@@ -25,4 +25,24 @@ yargs.command({
     }
 })
 
+// Create a list command
+yargs.command({
+    command: 'list',
+    describe: 'Listing out all notes',
+    handler: function () {
+        console.log('Lists notes')
+    }
+})
+
+
+
+// Create a read command
+
+//
+// Challenge: Add two new commands
+//
+// 1. Setup command to support "list" command (print placeholder message for now)
+// 2. Setup command to support "read" command (pring placeholder message for now)
+// 3. Test your work both commands and ensure correct output
+
 console.log(yargs.argv)
