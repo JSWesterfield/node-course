@@ -13,7 +13,9 @@ yargs.command({
     describe: 'Add a new note',
     builder: {  // all the options we want our command to support
         title: {
-            describe: 'Note title'
+            describe: 'Note title',
+            demandOption: true,  // title is required
+            type: 'string' // title must be set to a string
         }
     },
     handler: function (argv) {
