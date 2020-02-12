@@ -50,4 +50,5 @@ yargs.command({
 // 2. Setup command to support "read" command (pring placeholder message for now)
 // 3. Test your work both commands and ensure correct output
 
-console.log(yargs.argv)
+yargs.parse() // yargs parses with configuration details
+// console.log(yargs.argv)
