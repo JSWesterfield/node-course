@@ -16,10 +16,16 @@ yargs.command({
             describe: 'Note title',
             demandOption: true,  // title is required
             type: 'string' // title must be set to a string
+        },
+        body: {
+            describe: 'Note body',
+            demandOption: true, // body required
+            type: 'string' // title must be set to a string
         }
     },
     handler: function (argv) {
         console.log('Title: ' + argv.title)
+        console.log('Body: ' + argv.body)
     }
 })
 
@@ -51,4 +57,4 @@ yargs.command({
 // 3. Test your work both commands and ensure correct output
 
 yargs.parse() // yargs parses with configuration details
-// console.log(yargs.argv)
+//console.log(yargs.argv) //console.logs our yargs object and the argv property
