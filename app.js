@@ -19,11 +19,11 @@ yargs.command({
         }
     },
     handler: function (argv) {
-        console.log('Adding a new note!', argv)
+        console.log('Title: ' + argv.title)
     }
 })
 
-// Create remove command
+// Create remove commandgit add
 yargs.command({
     command: 'remove',
     describe: 'Remove a note',
