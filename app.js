@@ -34,8 +34,6 @@ yargs.command({
     }
 })
 
-
-
 // Create a read command
 
 //
