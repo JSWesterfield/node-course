@@ -6,4 +6,4 @@ const book = {
 }
 
 const bookJSON = JSON.stringify(book);
-fs.writeFileSync('1-json.json', bookJSONnode);
+fs.writeFileSync('1-json.json', bookJSON);
