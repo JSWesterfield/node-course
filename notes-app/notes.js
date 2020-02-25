@@ -6,6 +6,7 @@ const getNotes = function () {
 
 const addNote = function (title, body) {
     const notes = loadNotes()
+    console.log(notes)
 }
 
 const loadNotes = function() {
@@ -14,7 +15,7 @@ const loadNotes = function() {
         const dataJSON = dataBuffer.toString()
         return JSON.parse(dataJSON)
     } catch(e) {
-        
+        return []
     }
     
 }
