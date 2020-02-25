@@ -6,8 +6,16 @@ const getNotes = function () {
 
 const addNote = function (title, body) {
     const notes = loadNotes()
+    
+    notes.push({
+        title: title,
+        body: body
+    })
+
     console.log(notes)
 }
+
+
 
 const loadNotes = function() {
     try {
@@ -15,7 +23,7 @@ const loadNotes = function() {
         const dataJSON = dataBuffer.toString()
         return JSON.parse(dataJSON)
     } catch(e) {
-        return []
+        return [] //add an empty array if nothing exists
     }
     
 }
