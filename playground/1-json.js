@@ -7,4 +7,4 @@ const fs = require('fs');
 // const bookJSON = JSON.stringify(book);
 // fs.writeFileSync('1-json.json', bookJSON);
 
-const dataBuffer = fs.readFileSync('1-json.json');  
+const dataBuffer = fs.readFileSync('1-json.json');  //returns json formatted data from the 1-json.json file
