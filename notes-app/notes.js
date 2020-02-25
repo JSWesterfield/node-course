@@ -12,15 +12,19 @@ const getNotes = function () {
 
 const addNote = function (title, body) {
     const notes = loadNotes()
-    const duplicateNotes // verify notes exist - w/ arrayFilter method
+    const duplicateNotes = notes.filter(function (note) {
+        return note.title === title
+    })// verify notes exist - w/ array filter method, loop through array to find duplicate values for note.title property 
 
+    if (duplicateNotes.length === 0) { // duplicateNotes array is set to length of 0 nothing was passed into the array, so its empty, and no duplicates exist
+        // no duplicates exist? ....push new note into notes array
+        notes.push({
+            title: title,
+            body: body
+        })
+    }
 
-    notes.push({
-        title: title,
-        body: body
-    })
-
-    saveNotes(notes)
+   
 }
 
 const saveNotes = function (notes) {  //takes 
