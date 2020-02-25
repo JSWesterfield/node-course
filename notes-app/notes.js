@@ -1,5 +1,11 @@
 const fs = require('fs')
 
+// Order: we want to:
+// 1.) Save data 
+// 2.) Take the object or an array
+// 3.) We use JSON stringify and then
+// 4.) We write it to the fiesystem (fs)
+
 const getNotes = function () {
     return 'Your notes..'
 }
@@ -12,10 +18,12 @@ const addNote = function (title, body) {
         body: body
     })
 
-    console.log(notes)
+    saveNotes(notes)
 }
 
-
+const saveNotes = function (notes) {  //takes 
+    const dataJSON = JSON.stringify(notes) //store stringified JSON notes data to dataJSON const
+}
 
 const loadNotes = function() {
     try {
