@@ -17,14 +17,15 @@ const addNote = function (title, body) {
     })// verify notes exist - w/ array filter method, loop through array to find duplicate values for note.title property 
 
     if (duplicateNotes.length === 0) { // duplicateNotes array is set to length of 0 nothing was passed into the array, so its empty, and no duplicates exist
-        // no duplicates exist? ....push new note into notes array
+        // no duplicates exist? ....push new note into notes.json
         notes.push({
             title: title,
             body: body
         })
+        saveNotes(notes)
+        console.log('New note added!')
     }
 
-   
 }
 
 const saveNotes = function (notes) {  //takes 
