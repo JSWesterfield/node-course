@@ -23,6 +23,7 @@ const addNote = function (title, body) {
 
 const saveNotes = function (notes) {  //takes 
     const dataJSON = JSON.stringify(notes) //store stringified JSON notes data to dataJSON const
+    fs.writeFileSync('notes.json', dataJSON)
 }
 
 const loadNotes = function() {
